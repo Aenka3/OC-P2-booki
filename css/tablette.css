@@ -1,0 +1,173 @@
+  body {
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+  #all {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  header a {
+    margin: auto;
+    margin-top: -10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  header a img {
+    margin-left: 30px;
+  }
+
+  nav {
+    margin-right: 0;
+  }
+
+  nav a {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+    border-top: none;
+    border-bottom: 2px solid #f2f2f2;
+  }
+
+  nav a:hover {
+    border-top: 0;
+    border-bottom: 2px solid #0065fc;
+  }
+
+  main {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  #search {
+    padding: 0 5%;
+  }
+
+  #title h1 {
+    font-size: 23px;
+  }
+
+  #title p {
+    font-size: 16px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  form .fa-map-marker-alt {
+    width: 17%;
+    padding: 0;
+  }
+
+  form input {
+    width: 66%;
+    font-size: 17px;
+  }
+
+  form button {
+    border-radius: 15px;
+    width: 17%;
+    padding: 0;
+  }
+
+  form button span {
+    display: none;
+  }
+
+  form button .fa-search {
+    display: block;
+  }
+
+  #filter-box {
+    display: block;
+    width: 100%;
+  }
+
+  #filter-box h3 {}
+
+  #filter {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .filter {
+    margin: 5px 5px;
+  }
+
+  .filter p {
+    font-size: 15px;
+    padding: 0 9px;
+  }
+
+  #hebergement {
+    flex-direction: column-reverse;
+    margin-top: 250px;
+  }
+
+  #marseille {
+    width: 100%;
+    background-color: #fff;
+  }
+
+  #populaire {
+    width: 100%;
+  }
+
+  #populaire .hebergement-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  #populaire a {
+    width: 30%;
+  }
+
+  #populaire .first {
+    padding-left: 0;
+  }
+
+  #populaire article {
+    height: 100px;
+    width: 100%;
+  }
+
+  #populaire p {
+    font-size: 12px;
+  }
+
+  #populaire .star-rate {
+    padding-top: 15px;
+  }
+
+  #activite {
+    margin: 30px;
+    width: 100%;
+  }
+
+  #activite-list {
+    padding-right: 60px;
+  }
+
+  footer {
+    margin: 0;
+  }
+
+  #footer {
+    width: 100%;
+    padding: 30px 30px;
+    flex-direction: column;
+  }
+
+  #footer .column {
+    width: 100%;
+  }
